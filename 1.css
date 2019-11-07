@@ -1,0 +1,21 @@
+*{margin: 0;padding: 0;}
+
+h1 {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 26px;
+    font-size: 34px;
+    color: #528da0;
+}
+
+.chua {
+    margin: auto;
+    width: 500px;
+    height: 334px;
+    background-color: #d0f1e7;
+}
+.thongtin{
+	margin: auto;
+	font-size: 22px;
+	padding-left: 39px;
+}
