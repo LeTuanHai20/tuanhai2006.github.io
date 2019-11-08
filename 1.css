@@ -1,1 +1,49 @@
 *{margin: 0; padding: 0;} 
+a.nav-link {
+    font-size: 20px;
+    font-family: 'Be Vietnam', sans-serif;
+    text-transform: uppercase;
+    margin-right: 15px;
+    margin-top: 41px;
+    font-weight: 600;
+}
+nav.navbar.navbar-light.bg-faded {
+    margin: 0px;
+    padding: 0px;
+    height: 140px;
+}
+
+nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
+    background-color: white;
+} 
+@media(max-width: 576px)
+{
+	*{
+		
+	}
+
+ul.nav.navbar-nav.float-xs-right {
+    float: none;
+    text-align: center;
+}
+
+a.nav-link {
+    display: inline!important;
+    font-size: 18px;
+    text-align: center!important;
+    margin-left: 0px;
+    line-height: 45px;
+    margin-right: 0px;
+}
+
+li.nav-item {
+    display: inline;
+    float: none!important;
+}
+
+a.navbar-brand {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+}
