@@ -12,6 +12,8 @@
  	<link href="https://fonts.googleapis.com/css?family=Be+Vietnam:300,400,600,700,700i,800i&display=swap" rel="stylesheet">
 </head>
 <body >
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v5.0&appId=435757317132122&autoLogAppEvents=1"></script>
  			<div class="menutop">
  				<nav class="navbar navbar-light bg-faded navbar-fixed-top ">
 	 				<div class="container">
@@ -20,7 +22,7 @@
 		 					<li class="nav-item ">
 		 						<a class="nav-link" href="#">about</a>
 		 					</li>
-		 					<li class="nav-item">
+		 					<li class="nav-item" id="kn">
 		 						<a class="nav-link" href="#">experience</a>
 		 					</li>
 		 					<li class="nav-item">
@@ -45,10 +47,10 @@
 	 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 	 					<a href="#" class="nutthue btn btn-primary">contact me</a>
  					</div>
- 					
+ 					<div class="xuong"></div>
  				</div> <!-- het phan content khoi1 -->
  			</div> <!-- het khoi thong tin -->
- 			<div class="edu">
+ 			<div class="edu" id="khoiedu">
  				<div class="container">
  					<div class="row">
  						<div class="col-sm-12 tieudeto text-sm-center">
@@ -84,5 +86,15 @@
  					</div>   <!--  het row sau tieu đe -->
  				</div>	<!--  het container -->
  			</div>  <!-- het khung edu -->
+ 			<div class="cmtfb">
+ 				<div class="container">
+ 					<div class="col-sm-12">
+ 						<h1 class=" text-sm-center">COMMENT</h1>
+ 					</div>
+ 					<div class="col-sm-8">
+ 						<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="" data-numposts="5"></div>
+ 					</div>
+ 				</div>
+ 			</div>
 </body>
 </html>
