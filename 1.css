@@ -2,14 +2,14 @@
 
 .col-sm-8.push-sm-2.text-sm-center {
     margin-left: 0%;
-    background-color: green;
-}
+    
 
 h1.text-sm-center {
     font-family: 'Be Vietnam', sans-serif;
     font-size: 36px;
     font-weight: bold;
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .xuong:hover {
